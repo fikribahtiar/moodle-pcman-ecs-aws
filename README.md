@@ -48,8 +48,9 @@ type : CNAME
 Value : moodle-ecs-alb-1972981379.us-east-1.elb.amazonaws.com
 
 16. Untuk melihat password moodle bisa masuk ke halaman secret manager -> pilih moodlepasswordsecret -> pilih Retrieve secret value -> copy password string nya
+17. Setelah login ke moodle nya -> masuk ke site admin -> pilih puligin -> cache -> config redis masukan host redis dari tab nodes dan pilih yg primary jangan pilih yang replica
 
-17. jika mau menghapus semuanya jalankan ini 
+18. jika mau menghapus semuanya jalankan ini 
 cdk destroy --all
 
 Referensi : https://aws.amazon.com/id/blogs/publicsector/modernize-moodle-lms-aws-serverless-containers/ 
